@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+}
+
+button {
+  background: #069;
+  color: white;
+  font-size: 32px;
+  padding: 8px 20px;
+  cursor: pointer;
+  border: 0;
+}
+
+body {
+  background-image: linear-gradient(to right, blue, red);
+  color: white;
+}
+
+#minutos {
+  border-radius: 8px;
+  padding: 5px;
+}
+
+#segundos {
+  border-radius: 8px;
+  padding: 5px;
+}
